@@ -29,21 +29,22 @@
 // console.log(abc)
 
 
-function add(a){
-    return function(b){
-        return function(c){
-            return function(d){
-                return a+b+c+d;
-            }
-        }
-    }
-}
-const ans=add(2)(2)(3)(4)//11
-console.log(ans);
+// function add(a){
+//     return function(b){
+//         return function(c){
+//             return function(d){
+//                 return a+b+c+d;
+//             }
+//         }
+//     }
+// }
+// const ans=add(2)(2)(3)(4)//11
+// console.log(ans);
 
 
-app.get('/',(req,res)=>{
-    res.status(201).json({
-        message:"hello node js",
-    })
-})
+// app.get('/',(req,res)=>{
+//     res.status(201).json({
+//         message:"hello node js",
+//     })
+// })
+
