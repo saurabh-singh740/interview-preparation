@@ -48,3 +48,17 @@
 //     })
 // })
 
+
+// var a=[10,11,12,13,14]
+// function print(b,...a){
+//     console.log(a)
+// }
+// print(8,9,10,11,12)
+
+// const arr=[1,2,3,4,5]
+
+// const arr1=arr.map((elem,index,array)=>{
+//     return elem>8
+// })
+// console.log(arr1)
+
