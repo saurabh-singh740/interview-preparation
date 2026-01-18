@@ -62,19 +62,22 @@
 // arr.splice(1,1,6)
 // console.log(arr)
 
-console.log("abhi"-"2")
+// console.log("abhi"-"2")
 
-const arr=[1,1,2,3,4,2,5]
+// const arr=[1,1,2,3,4,2,5]
 
-const duplicates=[]
+// const duplicates=[]
 
-for (let i=0;i<arr.length;i++){
-    for (let j=i+1;j<arr.length;j++){
-        if(arr[i]===arr[j]){
-            duplicates.push(arr[i])
-            break;
-        }
-    }
+// for (let i=0;i<arr.length;i++){
+//     for (let j=i+1;j<arr.length;j++){
+//         if(arr[i]===arr[j]){
+//             duplicates.push(arr[i])
+//             break;
+//         }
+//     }
 
-}
-console.log(duplicates)
+// }
+// console.log(duplicates)
+
+
+
