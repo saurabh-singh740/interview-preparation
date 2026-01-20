@@ -84,10 +84,10 @@
 // console.log(y)
 
 
-let obj={
-    name:"atif"
-}
-const obj2=obj
-obj2.name="ali"
-console.log(obj)
-console.log(obj2)
+// let obj={
+//     name:"atif"
+// }
+// const obj2=obj
+// obj2.name="ali"
+// console.log(obj)
+// console.log(obj2)
