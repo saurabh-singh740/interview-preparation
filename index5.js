@@ -76,11 +76,48 @@
 // }
 // console.log(reverse(str))
 
-if([]==[]){
-    console.log("saurabh")
+// if([]==[]){
+//     console.log("saurabh")
 
-}
-else{
-    console.log("no one is present")
+// }
+// else{
+//     console.log("no one is present")
 
-}
+// }
+
+
+// function test(x=10){
+//     console.log(x)
+// }
+// test(0)
+
+// console.log(undefined==0)
+
+// console.log(undefined===0)
+
+// console.log("0"==false)
+// console.log("0"===false)
+
+// let x=10;
+// function xyz(x){
+//     console.log(x)
+// }
+// xyz()
+
+// const str="aabbcdd"
+// let result=""
+
+// for(let char of str){
+//     if(str.indexOf(char)===str.lastIndexOf(char)){
+//         result = char;
+//     break;
+//     }
+// }
+// console.log(result)
+
+
+// let x;
+// console.log(x)
+
+let x=null
+console.log(x)
