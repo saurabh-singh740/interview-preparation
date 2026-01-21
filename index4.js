@@ -126,12 +126,14 @@
 
 //console.log(isNaN(89))
 
-const xyz=1000
-const abc="saurabh"
+// const xyz=1000
+// const abc="saurabh"
 
-const ans=function merge(xyz,arr){
-    return xyz+arr
+// const ans=function merge(xyz,arr){
+//     return xyz+arr
 
-}
+// }
 
-console.log(ans(xyz,abc))
+// console.log(ans(xyz,abc))
+
+
