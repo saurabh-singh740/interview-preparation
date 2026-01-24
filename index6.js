@@ -74,13 +74,83 @@
 // console.log(pqr,xyz)
 
 
-function add(a){
-    return function (b){
-        return function(c){
-            return a+b+c;
-        }
+// function add(a){
+//     return function (b){
+//         return function(c){
+//             return a+b+c;
+//         }
 
-    }
+//     }
 
-}
-console.log(add(2)(4)(6))
+// }
+// console.log(add(2)(4)(6))
+
+
+// const str="my name is saurabh singh"
+// function longestword(str){
+// let words=str.split(" ")
+// let longest=""
+// let secondlongest=""
+
+// for(let word of words){
+//     if(word.length>longest.length){
+//         secondlongest=word;
+//     }
+    
+// }
+// return secondlongest
+
+
+
+
+// }
+// console.log(longestword(str))
+
+
+// const arr=[10,12,7,6,68]
+// let target=13
+// function sumnumber(arr){
+//     for(let i=0;i<arr.length;i++){
+//         for(let j=i+1;j<arr.length;j++){
+//             if(arr[i]+arr[j]==target){
+
+//                console.log( [i,j])
+                
+//             }
+
+//         }
+        
+//     }
+
+
+// }
+// sumnumber(arr)
+
+
+//console.log(isNaN("saurabh"))
+
+// var arr=[1,2,3,4]
+// var ans=arr.map(function(value){
+//     return value=4
+// })
+// console.log(ans)
+
+
+// let x=10;
+// function add(a){
+//     return a+x
+
+// }
+// console.log(add(2,x))
+
+
+
+// console.log(x)
+// console.log(abc)
+// var x=100
+// function abc(xyz){
+//     return xyz+xyz
+    
+// }
+
+
