@@ -39,15 +39,15 @@
 // }
 // xyz(x)
 
-let str="aabbcde"
-function unique(str){
+// let str="aabbcde"
+// function unique(str){
 
-    for(let i=0;i<str.length;i++){
-        if(str.indexOf(str[i])===str.lastIndexOf(str[i])){
-            return str[i]
-        }
-    }
+//     for(let i=0;i<str.length;i++){
+//         if(str.indexOf(str[i])===str.lastIndexOf(str[i])){
+//             return str[i]
+//         }
+//     }
 
 
-}
-console.log(unique(str))
+// }
+// console.log(unique(str))

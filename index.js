@@ -11,6 +11,7 @@
 // let obj={
 //     a:{
 //         b:2,
+        
 //     }
 // }
 // console.log(obj.a?.b?.c?.d??"saurabh")//saurabh
@@ -61,4 +62,20 @@
 //     return elem>8
 // })
 // console.log(arr1)
+
+
+
+
+// function xyz(func){
+//     for(var i=0;i<3;i++){
+//         setTimeout (()=>{
+//             console.log(i)
+//         },4000)
+//     }
+
+// }
+// xyz()
+
+
+
 

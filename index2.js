@@ -35,8 +35,8 @@
 // console.log(abc)
 
 
-// console.log(parseInt ('100A'))
-// console.log(parseInt ('1A00'))
+//console.log(parseInt ('100A'))
+//console.log(parseInt ('1A00'))
 
 // console.log([100,200,300].map(element=>{
 //     if(element>90)
