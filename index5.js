@@ -124,3 +124,19 @@
 
 
 
+let str="aabbcdd"
+
+let result=""
+
+function xyz(str){
+    for(let char of str){
+        if(str.indexOf(char)===str.lastIndexOf(char)){
+            
+            result=char
+           
+        }
+        
+    }
+    return result
+}
+console.log(xyz(str))

@@ -32,30 +32,19 @@
 // console.log(null==undefined)
 
 
-// let arr=["saurabh","singh"]
+let arr=["saurabh","s"]
 
-// function intersection(arr){
-//     let str1=arr[0];
-//     let str2=arr[1];
-
-//     let result=[]
-
-
-//     for(let i=0;i<str1.length;i++){
-//         if(str2.includes([str1])){
-//             result.push(str1[i])
-
-//         }else{
-//             console.log("not found")
-//         }
-
-       
-
-//     }
-//     return result
-
-// }
-// console.log(intersection(arr))
+function intersection(arr){
+    for(let i=0;i<arr.length;i++){
+        if(arr[0].includes(arr[1])){
+            return true;
+        }
+        else{
+            return false
+        }
+    }
+}
+console.log(intersection(arr))
 
 
 
@@ -178,8 +167,49 @@
 
 
 
-let arr=[1,2,3,4,5]
-let arr1=arr.map(function(value){
-    return value=5
-})
-console.log(arr1)
+// let arr=[1,2,3,4,5]
+// let arr1=arr.map(function(value){
+//     return value=5
+// })
+// console.log(arr1)
+
+
+
+// let arr=['saurabh','sau']
+// function ispresent(){
+// for(let i=0;i<arr.length;i++){
+//     if(arr[0].includes(arr[1])){
+//        return true
+//     }
+//     else{
+//         return false
+//     }
+// }
+
+// }
+// console.log(ispresent(arr))
+
+
+
+// let arr=[1,2,3,4,5,6]
+// let ans=arr.sort(function(a,b){
+//     return b-a
+// })
+// console.log(ans[0])
+
+
+// console.log(0.1+0.2===0.3)
+
+
+
+// const obj={
+// }
+// const a={
+//     key:"a"
+// }
+// const b={
+//     key:"b"
+// }
+// obj[a]=123
+// obj[b]=456
+// console.log(obj[a])

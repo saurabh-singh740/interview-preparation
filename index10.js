@@ -7,6 +7,7 @@
 // console.log(missing(a))
 
 
+
 // function debounce(fn,delay){
 
 //     let timer;
@@ -237,3 +238,40 @@
 
 
 
+// function debounce(fn,delay){
+
+//     let timer;
+//     return function(){
+//         clearInterval(timer)
+
+//         setTimeout(()=>{
+//             fn()
+//         })
+//     }
+
+// }
+
+// const ans=debounce(function(){
+//     console.log("hello")
+// },1000)
+// ans()
+
+
+function throttle(fn,delay){
+
+    let lasttime=0
+    
+
+    return function(){
+        let now=Date.now()
+        if(now-lasttime>=delay){
+            lasttime=now;
+            fn()
+        }
+    }
+
+}
+const ans=throttle(function (){
+    console.log("api call")
+},1000)
+ans()

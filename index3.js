@@ -91,3 +91,26 @@
 // obj2.name="ali"
 // console.log(obj)
 // console.log(obj2)
+
+
+
+// const arr=[1,2,3,4]
+// const arr1=[...arr,5,6]
+// console.log(arr1)
+
+
+// function xyz(...arr){
+//     console.log(arr)
+    
+
+// }
+// xyz(1,2,3,4)
+
+const str='saurabh'
+const str1='singh'
+
+function mergestring(str,str2){
+    return [...str,...str1].join("")
+
+}
+console.log(mergestring(str,str1))

@@ -127,9 +127,26 @@
 // console.log(intersection(a1,b1))
 
 
-var arr=[1,2,3,4,5]
-var ans=arr.reduce(function(a,b){
-  return a*b
+// var arr=[1,2,3,4,5]
+// var ans=arr.reduce(function(a,b){
+//   return a*b
 
-},1)
-console.log(ans)
+// },1)
+// console.log(ans)
+
+
+let arr=[1,2,3,[4,5,6,7],[9,12]]
+
+function flattenarray(arr){
+  for(let i=0;i<arr.length;i++){
+    if(Array.isArray(arr[i])){
+      flattenarray(arr[i])
+    }
+    else{
+      console.log(arr[i])
+    }
+  }
+
+
+}
+flattenarray(arr)

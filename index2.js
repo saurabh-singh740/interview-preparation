@@ -12,7 +12,7 @@
 // console.log(abc(4,1))
 // console.log(abc(1,4))
 
-// function abc(a,...b,c){
+// function abc(a,b,...c){
 //     return [...a,...b,c]
 
 // }
