@@ -257,21 +257,24 @@
 // ans()
 
 
-function throttle(fn,delay){
+// function throttle(fn,delay){
 
-    let lasttime=0
+//     let lasttime=0
     
 
-    return function(){
-        let now=Date.now()
-        if(now-lasttime>=delay){
-            lasttime=now;
-            fn()
-        }
-    }
+//     return function(){
+//         let now=Date.now()
+//         if(now-lasttime>=delay){
+//             lasttime=now;
+//             fn()
+//         }
+//     }
 
-}
-const ans=throttle(function (){
-    console.log("api call")
-},1000)
-ans()
+// }
+// const ans=throttle(function (){
+//     console.log("api call")
+// },1000)
+// ans()
+
+
+
