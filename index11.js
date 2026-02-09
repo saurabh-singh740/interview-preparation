@@ -43,16 +43,19 @@
 
 
 
-const str="i am saurabh"
-function secondlongest(){
-    let words=str.split(" ")
-  let ans=words.sort(function(a,b){
-    return b.length-a.length
+// const str="i am saurabh"
+// function secondlongest(){
+//     let words=str.split(" ")
+//   let ans=words.sort(function(a,b){
+//     return b.length-a.length
 
-  })
+//   })
 
-  return words[0]
+//   return words[0]
 
 
-}
-console.log(secondlongest(str))
+// }
+// console.log(secondlongest(str))
+
+
+
